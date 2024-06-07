@@ -15,4 +15,4 @@ git pull origin develop
 
 # PULL CHANGES FROM "develop" INTO PERSONAL BRANCH "alec" #
 git checkout alec
-git pull origin develop
+git pull origin developg

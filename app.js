@@ -1,9 +1,14 @@
 let flip = document.getElementById("flip");
 let result = document.getElementById("result");
 
-flip.onclick = () => {
+let choice = () => {
 	let choice = Math.floor(Math.random() * 2);
-	if (choice === 0) {
+	return choice;
+};
+
+flip.onclick = () => {
+	let x = choice();
+	if (x === 0) {
 		result.innerHTML = "Heads";
 	} else {
 		result.innerHTML = "Tails";
