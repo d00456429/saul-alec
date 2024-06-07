@@ -8,11 +8,15 @@ body {
   background-color: rgb(184, 233, 145);
 }
 #flip {
-  font-size: 300px;
+  font-size: 200px;
 }
 button {
   display: block;
   margin: auto;
+  height: 700px;
+  width: 700px;
+  background-color: bisque;
+  border-radius: 50%;
 }
 #result {
   font-size: 100px;
