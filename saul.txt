@@ -1,1 +1,9 @@
 saul
+git checkout saul
+make whatever changes
+git add 
+git commit -m "whatever you did"
+git checkout develop
+git pull origin develop
+git merge saul
+git push -u origin deve
