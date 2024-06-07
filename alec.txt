@@ -1,1 +1,14 @@
-hi
+# MAKE NEW FILE ON "alec" AND SEND TO "develop"
+
+<make files>
+git checkout alec
+git add .
+git commit -m "message"
+git checkout develop
+git merge alec
+git pull origin develop
+git push -u origin develop
+
+# PULL CHANGES ON "develop"
+
+git pull origin develop
